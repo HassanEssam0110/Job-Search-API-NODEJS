@@ -1,0 +1,29 @@
+{
+  "name": "job-search-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "set NODE_ENV=development& nodemon index.js",
+    "start:prod": "set NODE_ENV=production& node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hassan Essam",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.2.0",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "luxon": "^3.4.4",
+    "mongoose": "^8.4.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.14",
+    "uuid": "^10.0.0"
+  }
+}
